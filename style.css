@@ -151,3 +151,23 @@ header h1,header p {
 .mb h2{
     border-bottom: 2px solid #ccc;
 }
+.toggle-hobbies {
+    position: left;
+    right: 10px; /* Adjust right position as needed */
+    top: 50%; /* Adjust top position as needed */
+    transform: translateY(-15%);
+    background-color: #f31912;
+    color: black;
+    border: none;
+    padding: 6px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+.hobbies ul {
+    display: none; /* Initially hide the skills list */
+}
+  
+.hobbies.show-hobbies ul {
+    display: block;
+}

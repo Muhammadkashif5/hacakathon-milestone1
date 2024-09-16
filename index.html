@@ -30,7 +30,7 @@
                    muhammad-kashif7016</p>
             <p>📍 House # 12, Block # 481-C, Railway Colony Karachi Cantt</p>
           </div>
-          <div class="skills">
+          <div class="skills"> 
             <h2>Skills</h2>
             <ul style="list-style-type:disc">
               <li>Web Design</li>
@@ -51,8 +51,8 @@
             </ul>
           </div>
 
-          <div class="hobbies">
-            <h2>Hobbies</h2>
+          <div class="hobbies show-hobbies" id="hobbies">
+            <h2>Hobbies  <button onclick="showhide()" class="toggle-hobbies">Show/Hide</button></h2>
             <ul style="list-style-type:disc">
               <li>Gyming</li>
               <li>Reading</li>
@@ -113,4 +113,14 @@
       </div>
     </div>
   </body>
-</html>
+  <script>
+    function showhide() {
+      const exists = document.getElementById("hobbies").classList.contains("show-hobbies")
+      if(exists) {
+        document.getElementById("hobbies").classList.remove("show-hobbies")
+      }else {
+        document.getElementById("hobbies").classList.add("show-hobbies")
+      }
+    }
+  </script>
+</html> 
