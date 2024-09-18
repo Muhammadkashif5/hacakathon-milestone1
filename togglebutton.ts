@@ -5,4 +5,4 @@ function showhide() {
     }else {
       document.getElementById("hobbies")?.classList.add("show-hobbies")
     }
-};
+}
