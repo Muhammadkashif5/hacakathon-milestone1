@@ -8,3 +8,4 @@ function showhide() {
         (_c = document.getElementById("hobbies")) === null || _c === void 0 ? void 0 : _c.classList.add("show-hobbies");
     }
 }
+;
